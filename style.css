@@ -1,0 +1,162 @@
+/* Reset and Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f6f9;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #2c3e50, #34495e);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-size: 20px;
+  color: #dcdcdc;
+}
+
+/* Container Section (About Me) */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  padding: 40px 20px;
+  background-color: white;
+  width: 90%;
+  max-width: 1100px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.text-section {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.text-section h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+.text-section p {
+  font-size: 18px;
+  color: #555;
+}
+
+.image-section {
+  flex: 1;
+  text-align: center;
+  min-width: 250px;
+}
+
+.image-section img {
+  width: 75%;
+  max-width: 280px;
+  border-radius: 50%;
+  border: 5px solid #2980b9;
+  transition: transform 0.3s ease;
+}
+
+.image-section img:hover {
+  transform: scale(1.05);
+}
+
+/* Section Style */
+section {
+  background-color: white;
+  margin: 25px auto;
+  padding: 30px 25px;
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #2c3e50;
+  font-size: 28px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #3498db;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px 15px;
+  text-align: center;
+  font-size: 16px;
+}
+
+th {
+  background-color: #2980b9;
+  color: white;
+}
+
+/* List Style */
+ul {
+  padding-left: 20px;
+  list-style: square;
+  color: #444;
+  font-size: 17px;
+}
+
+/* Links */
+a {
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Project Paragraphs */
+section p {
+  margin-bottom: 18px;
+  font-size: 17px;
+  color: #333;
+  line-height: 1.7;
+}
+
+section p strong {
+  color: #2c3e50;
+}
+
+/* Footer */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+  font-size: 16px;
+}
