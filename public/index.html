@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Keshav Mehta | Portfolio</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Particles -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+
+<body>
+
+  <!-- PARTICLES BACKGROUND -->
+  <div id="particles-js"></div>
+
+  <!-- HERO -->
+  <header class="hero">
+    <h1 class="fade-in">Keshav Mehta</h1>
+    <p class="typing">B.Tech CSE (AI) | Java Developer | Web Developer</p>
+  </header>
+
+  <!-- ABOUT -->
+  <section class="glass reveal">
+    <div class="about">
+      <img src="1.webp" alt="Keshav Mehta">
+      <div>
+        <h2>About Me</h2>
+        <p>
+          I am a Computer Science (AI) student at NIET, Greater Noida (CGPA: 8.3).
+          Passionate about Java, Web Development, AI, and Data Structures.
+          I love building real-world projects and learning by doing.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="glass reveal">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Java</span>
+      <span>C</span>
+      <span>C++</span>
+      <span>Python</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Bootstrap</span>
+      <span>DSA</span>
+      <span>Generative AI</span>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="glass reveal">
+    <h2>Experience</h2>
+
+    <div class="card">
+      <h3>Student Intern – Web Development</h3>
+      <p><strong>CodSoft | June 2025 – July 2025</strong></p>
+      <ul>
+        <li>Developed 5+ responsive web pages</li>
+        <li>Improved performance by 20%</li>
+        <li>Enhanced user experience across devices</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Team Leader – Smart India Hackathon</h3>
+      <p><strong>SIH Internal Round | 2025</strong></p>
+      <ul>
+        <li>Led EDURISE – Gamified Learning Platform</li>
+        <li>Handled UI/UX & Web Development</li>
+        <li>Qualified for SIH Internals</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="glass reveal">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">EDURISE – Smart Learning Platform</div>
+      <div class="project">Portfolio Website</div>
+      <div class="project">Amazon UI Clone</div>
+      <div class="project">Asphalt Landing Page</div>
+      <div class="project">Tic Tac Toe (Java + JS)</div>
+      <div class="project">Rock Paper Scissors</div>
+      <div class="project">Calculator (Java + JS)</div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="glass reveal">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:keshav456mehta@gmail.com">keshav456mehta@gmail.com</a></p>
+    <p>Phone: 9467214910</p>
+    <p>
+      <a href="https://github.com/keshav456mehta" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/keshav-mehta-998985353/" target="_blank">LinkedIn</a>
+    </p>
+    <a class="btn" href="Keshav_Mehta_Resume_Final_.docx" download>Download Resume</a>
+  </section>
+
+  <footer>
+    © 2025 Keshav Mehta | Built with ❤️
+  </footer>
+
+  <!-- PARTICLES CONFIG -->
+  <script>
+    particlesJS("particles-js", {
+      particles: {
+        number: { value: 70 },
+        color: { value: "#58a6ff" },
+        shape: { type: "circle" },
+        opacity: { value: 0.4 },
+        size: { value: 3 },
+        line_linked: {
+          enable: true,
+          distance: 150,
+          color: "#58a6ff",
+          opacity: 0.3,
+          width: 1
+        },
+        move: { enable: true, speed: 2 }
+      }
+    });
+  </script>
+
+  <!-- SCROLL REVEAL -->
+  <script>
+    const reveals = document.querySelectorAll(".reveal");
+    window.addEventListener("scroll", () => {
+      reveals.forEach(el => {
+        if (el.getBoundingClientRect().top < window.innerHeight - 100) {
+          el.classList.add("active");
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
